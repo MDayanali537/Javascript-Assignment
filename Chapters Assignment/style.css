@@ -1,0 +1,19 @@
+
+h1 {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+    background-color: darkgray;
+    border: 2px solid black;
+}
+
+a:hover {
+    color: #fff;
+}
