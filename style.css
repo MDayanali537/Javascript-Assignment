@@ -5,10 +5,15 @@ h1 {
     justify-content: center;
 }
 
+h1:hover {
+    background-color: beige;
+    cursor: pointer;
+}
+
 a {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 30px;
     background-color: darkgray;
     border: 2px solid black;
@@ -16,4 +21,5 @@ a {
 
 a:hover {
     color: #fff;
+    scale: 1.1;
 }
